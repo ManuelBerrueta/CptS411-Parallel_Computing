@@ -1,0 +1,17 @@
+For blocking, use the sendRecv executable or compile with:
+
+  $ mpicc -o sendRecv pa1.c
+
+For blocking, use the nbSendRecv executable or compile with:
+
+  $ mpicc -o nbSendRecv pa1nb.c
+
+To run with blocking, run: 
+
+  $ sbatch -N2 ./jobscript.sh
+
+To run without blocking, run:
+
+  $ sbatch -N2 ./nbJobscript.sh
+
+Results are printed to generated CSVs in the cwd.

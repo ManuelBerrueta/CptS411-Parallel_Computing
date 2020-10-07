@@ -1,0 +1,1 @@
+Serial baseline time (us) for 1048576 elements = 15382

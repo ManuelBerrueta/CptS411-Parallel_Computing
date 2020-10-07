@@ -1,0 +1,4 @@
+total successes = 421657500
+estimated value of pi = 3.141593188047
+piEst is accurate to 5 decimal places
+time to execute threaded code: 17.285 s 
